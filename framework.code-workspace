@@ -4,7 +4,19 @@
 			"path": "."
 		},
 		{
-			"path": "D:\\workspace\\personal\\framework"
+			"path": "D:\\workspace\\personal\\framework\\build"
+		},
+		{
+			"path": "D:\\workspace\\personal\\framework\\config"
+		},
+		{
+			"path": "D:\\workspace\\personal\\framework\\node_modules"
+		},
+		{
+			"path": "D:\\workspace\\personal\\framework\\src"
+		},
+		{
+			"path": "D:\\workspace\\personal\\framework\\static"
 		}
 	],
 	"settings": {}
