@@ -71,42 +71,42 @@ const router = new Router({
         {
           path: 'appbar',
           name: 'F7Accordion',
-          component: Accordion
+          component: Appbar
         },
         {
           path: 'badge',
           name: 'F7Accordion',
-          component: Accordion
+          component: Badge
         },
         {
           path: 'block',
           name: 'F7Accordion',
-          component: Accordion
+          component: Block
         },
         {
           path: 'button',
           name: 'F7Accordion',
-          component: Accordion
+          component: Button
         },
         {
           path: 'cards',
           name: 'F7Accordion',
-          component: Accordion
+          component: Card
         },
         {
           path: 'checkbox',
           name: 'F7Accordion',
-          component: Accordion
+          component: Checkbox
         },
         {
           path: 'chipsntags',
           name: 'F7Accordion',
-          component: Accordion
+          component: ChipsNTags
         },
         {
           path: 'contactslist',
           name: 'F7Accordion',
-          component: Accordion
+          component: ContactsList
         },
         {
           path: 'fab',
