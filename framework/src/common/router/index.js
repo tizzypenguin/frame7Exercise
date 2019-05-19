@@ -70,243 +70,243 @@ const router = new Router({
         },
         {
           path: 'appbar',
-          name: 'F7Accordion',
+          name: 'F7Appbar',
           component: Appbar
         },
         {
           path: 'badge',
-          name: 'F7Accordion',
+          name: 'F7Badge',
           component: Badge
         },
         {
           path: 'block',
-          name: 'F7Accordion',
+          name: 'F7Block',
           component: Block
         },
         {
           path: 'button',
-          name: 'F7Accordion',
+          name: 'F7Button',
           component: Button
         },
         {
           path: 'cards',
-          name: 'F7Accordion',
+          name: 'F7Card',
           component: Card
         },
         {
           path: 'checkbox',
-          name: 'F7Accordion',
+          name: 'F7Checkbox',
           component: Checkbox
         },
         {
           path: 'chipsntags',
-          name: 'F7Accordion',
+          name: 'F7ChipsNTags',
           component: ChipsNTags
         },
         {
           path: 'contactslist',
-          name: 'F7Accordion',
+          name: 'F7ContactsList',
           component: ContactsList
         },
         {
           path: 'fab',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7FAB',
+          component: FAB
         },
         {
           path: 'gauge',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Gauge',
+          component: Gauge
         },,
         {
           path: 'grid',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Grid',
+          component: Grid
         },
         {
           path: 'icon',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Icon',
+          component: Icon
         },
         {
           path: 'inputs',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Inputs',
+          component: Inputs
         },
         {
           path: 'link',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Link',
+          component: Link
         },
         {
           path: 'list',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7List',
+          component: List
         },,
         {
           path: 'listbutton',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7ListButton',
+          component: ListButton
         },
         {
           path: 'listindex',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7ListIndex',
+          component: ListIndex
         },
         {
           path: 'listitem',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7ListItem',
+          component: ListItem
         },
         {
           path: 'listview',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7ListView',
+          component: ListView
         },
         {
           path: 'loginscreen',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7LoginScreen',
+          component: LoginScreen
         },,
         {
           path: 'menu',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Menu',
+          component: Menu
         },
         {
           path: 'messagebar',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Messagebar',
+          component: Messagebar
         },
         {
           path: 'navbar',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Navbar',
+          component: Navbar
         },
         {
           path: 'page',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Page',
+          component: Page
         },
         {
           path: 'panel',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Panel',
+          component: Panel
         },,
         {
           path: 'photobrowser',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Photobrowser',
+          component: Photobrowser
         },
         {
           path: 'popover',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Popover',
+          component: Popover
         },
         {
           path: 'popup',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Popup',
+          component: Popup
         },
         {
           path: 'preloader',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Preloader',
+          component: Preloader
         },
         {
           path: 'progressbar',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Progressbar',
+          component: Progressbar
         },,
         {
           path: 'radio',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Radio',
+          component: Radio
         },
         {
           path: 'rangeslider',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Rangeslider',
+          component: Rangeslider
         },
         {
           path: 'searchbar',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Searchbar',
+          component: Searchbar
         },
         {
           path: 'sheetmodal',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Sheetmodal',
+          component: Sheetmodal
         },
         {
           path: 'skeleton',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Skeleton',
+          component: Skeleten
         },,
         {
           path: 'smartselect',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7SmartSelect',
+          component: SmartSelect
         },
         {
           path: 'sortable',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Sortable',
+          component: Sortable
         },
         {
           path: 'statusbar',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Statusbar',
+          component: Statusbar
         },
         {
           path: 'stepper',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Stepper',
+          component: Stepper
         },
         {
           path: 'subnavbar',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Subnavbar',
+          component: SubNavbar
         },,
         {
           path: 'swipeout',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Swipeout',
+          component: Swipeout
         },
         {
           path: 'swiper',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Swiper',
+          component: Swiper
         },
         {
           path: 'tabs',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Tabs',
+          component: Tabs
         },
         {
           path: 'toggle',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Toggle',
+          component: Toggle
         },
         {
-          path: 'tollbarntabbar',
-          name: 'F7Accordion',
-          component: Accordion
+          path: 'toolbarntabbar',
+          name: 'F7ToolbarNTabbar',
+          component: ToolbarNTabbar
         },,
         {
           path: 'treeview',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7Treeview',
+          component: Treeview
         },
         {
           path: 'view',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7View',
+          component: View
         },
         {
           path: 'virtuallist',
-          name: 'F7Accordion',
-          component: Accordion
+          name: 'F7VirtualList',
+          component: VirtualList
         }
       ]
     }
