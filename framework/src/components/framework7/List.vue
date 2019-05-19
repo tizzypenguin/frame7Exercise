@@ -1,55 +1,17 @@
 <template>
   <f7-view main>
     <f7-page>
+      <f7-navbar ref="navbar" title="List View"></f7-navbar>
       <f7-block-title>Simple List</f7-block-title>
-      <f7-list simple-list>
-        <f7-list-item title="Accordion"></f7-list-item>
-        <f7-list-item title="Acction Sheet"></f7-list-item>
-        <f7-list-item title="Appbar"></f7-list-item>
-        <f7-list-item title="Badge"></f7-list-item>
-        <f7-list-item title="Block"></f7-list-item>
-        <f7-list-item title="Button"></f7-list-item>
-        <f7-list-item title="Cards"></f7-list-item>
-        <f7-list-item title="Cehckbox"></f7-list-item>
-        <f7-list-item title="Chips/Tags"></f7-list-item>
-        <f7-list-item title="Contact List"></f7-list-item>
-        <f7-list-item title="FAB"></f7-list-item>
-        <f7-list-item title="Gauge"></f7-list-item>
-        <f7-list-item title="Grid"></f7-list-item>
-        <f7-list-item title="Icon"></f7-list-item>
-        <f7-list-item title="Inputs"></f7-list-item>
-        <f7-list-item title="Link"></f7-list-item>
-        <f7-list-item title="List View"></f7-list-item>
-        <f7-list-item title="List Button"></f7-list-item>
-        <f7-list-item title="List Index"></f7-list-item>
-        <f7-list-item title="List Item"></f7-list-item>
-        <f7-list-item title="Login Screen"></f7-list-item>
-        <f7-list-item title="Menu"></f7-list-item>
-        <f7-list-item title="Messagebar"></f7-list-item>
-        <f7-list-item title="Messages"></f7-list-item>
-        <f7-list-item title="Navbar"></f7-list-item>
-        <f7-list-item title="Page"></f7-list-item>
-        <f7-list-item title="Panel"></f7-list-item>
-        <f7-list-item title="Photo Browser"></f7-list-item>
-        <f7-list-item title="Popover"></f7-list-item>
-        <f7-list-item title="Popup"></f7-list-item>
-        <f7-list-item title="Preloader"></f7-list-item>
-        <f7-list-item title="Progressbar"></f7-list-item>
-        <f7-list-item title="Sheet Modal"></f7-list-item>
-        <f7-list-item title="Skeleton"></f7-list-item>
-        <f7-list-item title="Smart Select"></f7-list-item>
-        <f7-list-item title="Sortable"></f7-list-item>
-        <f7-list-item title="Statusbar"></f7-list-item>
-        <f7-list-item title="Stepper"></f7-list-item>
-        <f7-list-item title="Subnavbar"></f7-list-item>
-        <f7-list-item title="Swipeout"></f7-list-item>
-        <f7-list-item title="Swiper"></f7-list-item>
-        <f7-list-item title="Tabs"></f7-list-item>
-        <f7-list-item title="Toggle"></f7-list-item>
-        <f7-list-item title="Toolbar/Tabbar"></f7-list-item>
-        <f7-list-item title="Treeview"></f7-list-item>
-        <f7-list-item title="View"></f7-list-item>
-        <f7-list-item title="Virtual List"></f7-list-item>
+      <f7-list>
+        <ul>
+          <f7-list-item
+            v-for="(item, index) in titleArr"
+            :key="index"
+            :title="item"
+            @click="($router.push('/f7/'+pathArr[index]))"
+          ></f7-list-item>
+        </ul>
       </f7-list>
     </f7-page>
   </f7-view>
@@ -57,9 +19,114 @@
 
 <script>
 export default {
-  name: "F7List",
+  name: "ExList",
   data() {
-    return {};
+    return {
+      titleArr: [
+        "Accordion",
+        "Acction Sheet",
+        "Appbar",
+        "Badge",
+        "Block",
+        "Button",
+        "Cards",
+        "Cehckbox",
+        "Chips/Tags",
+        "Contact List",
+        "FAB",
+        "Gauge",
+        "Grid",
+        "Icon",
+        "Inputs",
+        "Link",
+        "List Button",
+        "List Index",
+        "List Item",
+        "List View",
+        "Login Screen",
+        "Menu",
+        "Messagebar",
+        "Messages",
+        "Navbar",
+        "Page",
+        "Panel",
+        "Photo Browser",
+        "Popover",
+        "Popup",
+        "Preloader",
+        "Progressbar",
+        "Radio",
+        "RangeSlider",
+        "Searchbar",
+        "Sheet Modal",
+        "Skeleton",
+        "Smart Select",
+        "Sortable",
+        "Statusbar",
+        "Stepper",
+        "Subnavbar",
+        "Swipeout",
+        "Swiper",
+        "Tabs",
+        "Toggle",
+        "Toolbar/Tabbar",
+        "Treeview",
+        "View",
+        "Virtual List"
+      ],
+      pathArr: [
+        "accordion",
+        "actionsheet",
+        "appbar",
+        "badge",
+        "block",
+        "button",
+        "cards",
+        "cehckbox",
+        "chipsntags",
+        "contactlist",
+        "fab",
+        "gauge",
+        "grid",
+        "icon",
+        "inputs",
+        "link",
+        "listbutton",
+        "listindex",
+        "listitem",
+        "listview",
+        "loginscreen",
+        "menu",
+        "messagebar",
+        "messages",
+        "navbar",
+        "page",
+        "panel",
+        "photobrowser",
+        "popover",
+        "popup",
+        "preloader",
+        "progressbar",
+        "radio",
+        "rangeslider",
+        "searchbar",
+        "sheetmodal",
+        "skeleton",
+        "smartselect",
+        "sortable",
+        "statusbar",
+        "stepper",
+        "subnavbar",
+        "swipeout",
+        "swiper",
+        "tabs",
+        "toggle",
+        "toolbarntabbar",
+        "treeview",
+        "view",
+        "virtuallist"
+      ]
+    };
   },
   components: {},
   computed: {},

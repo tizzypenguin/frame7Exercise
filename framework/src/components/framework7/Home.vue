@@ -1,5 +1,5 @@
 <template>
-  <router-view/>
+  <router-view ref="rv"/>
 </template>
 
 <script>
@@ -11,6 +11,29 @@ export default {
   },
   created() {
     
+  },
+  mounted() {
+    const _this = this;
+    this.$f7ready((f7) => {
+      _this.addClick();
+    });
+  },
+  updated() {
+    this.addClick();
+  },
+  methods: {
+    addClick: function() {
+      const _this = this;
+      const children = _this.$refs.rv.$refs.navbar.$children;
+      for(var i=0; i< children.length; i++) {
+        if(children[i]) {
+          children[i].$el.addEventListener("click", _this.goBack);
+        }
+      }
+    },
+    goBack: function() {
+      this.$router.go(-1);
+    }
   }
 }
 </script>

@@ -1,7 +1,8 @@
 <template>
   <f7-view main>
 		<f7-page>
-			<f7-navbar title="Accordion" back-link="Back"></f7-navbar>
+			<!-- <f7-navbar title="Accordion" back-link="Back"></f7-navbar> -->
+			<f7-navbar ref="navbar" title="Accordion" back-link="Back"></f7-navbar>
 			<f7-block-title>List View Accordion</f7-block-title>
 			<f7-list accordion-list>
 				<f7-list-item accordion-item title="Lorem Ipsum">
@@ -79,7 +80,7 @@
 
 <script>
 export default {
-  name: "F7Accordion",
+  name: "ExAccordion",
   data() {
     return {};
   },

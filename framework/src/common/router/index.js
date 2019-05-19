@@ -3,55 +3,56 @@ import Router from 'vue-router'
 
 import Home from '@/components/framework7/Home'
 import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/ActionSheet'
-import Accordion from '@/components/framework7/Appbar'
-import Accordion from '@/components/framework7/Badge'
-import Accordion from '@/components/framework7/Block'
-import Accordion from '@/components/framework7/Button'
-import Accordion from '@/components/framework7/Cards'
-import Accordion from '@/components/framework7/Checkbox'
-import Accordion from '@/components/framework7/ChipsNTags'
-import Accordion from '@/components/framework7/ContactsList'
-import Accordion from '@/components/framework7/FAB'
-import Accordion from '@/components/framework7/Gauge'
-import Accordion from '@/components/framework7/Grid'
-import Accordion from '@/components/framework7/Icon'
-import Accordion from '@/components/framework7/Inputs'
-import Accordion from '@/components/framework7/Link'
-import Accordion from '@/components/framework7/List'
-import Accordion from '@/components/framework7/ListButton'
-import Accordion from '@/components/framework7/ListIndex'
-import Accordion from '@/components/framework7/ListItem'
-import Accordion from '@/components/framework7/ListView'
-import Accordion from '@/components/framework7/LoginScreen'
-import Accordion from '@/components/framework7/Menu'
-import Accordion from '@/components/framework7/Messagebar'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
-import Accordion from '@/components/framework7/Accordion'
+import ActionSheet from '@/components/framework7/ActionSheet'
+import Appbar from '@/components/framework7/Appbar'
+import Badge from '@/components/framework7/Badge'
+import Block from '@/components/framework7/Block'
+import Button from '@/components/framework7/Button'
+import Cards from '@/components/framework7/Cards'
+import Checkbox from '@/components/framework7/Checkbox'
+import ChipsNTags from '@/components/framework7/ChipsNTags'
+import ContactsList from '@/components/framework7/ContactsList'
+import FAB from '@/components/framework7/FAB'
+import Gauge from '@/components/framework7/Gauge'
+import Grid from '@/components/framework7/Grid'
+import Icon from '@/components/framework7/Icon'
+import Inputs from '@/components/framework7/Inputs'
+import Link from '@/components/framework7/Link'
+import List from '@/components/framework7/List'
+import ListButton from '@/components/framework7/ListButton'
+import ListIndex from '@/components/framework7/ListIndex'
+import ListItem from '@/components/framework7/ListItem'
+import ListView from '@/components/framework7/ListView'
+import LoginScreen from '@/components/framework7/LoginScreen'
+import Menu from '@/components/framework7/Menu'
+import Messagebar from '@/components/framework7/Messagebar'
+import Messages from '@/components/framework7/Messages'
+import Navbar from '@/components/framework7/Navbar'
+import Page from '@/components/framework7/Page'
+import Panel from '@/components/framework7/Panel'
+import PhotoBrowser from '@/components/framework7/PhotoBrowser'
+import Popover from '@/components/framework7/Popover'
+import Popup from '@/components/framework7/Popup'
+import Preloader from '@/components/framework7/Preloader'
+import Progressbar from '@/components/framework7/Progressbar'
+import Radio from '@/components/framework7/Radio'
+import RangeSlider from '@/components/framework7/RangeSlider'
+import Searchbar from '@/components/framework7/Searchbar'
+import SheetModal from '@/components/framework7/SheetModal'
+import Skeleton from '@/components/framework7/Skeleton'
+import SmartSelect from '@/components/framework7/SmartSelect'
+import Sortable from '@/components/framework7/Sortable'
+import Statusbar from '@/components/framework7/Statusbar'
+import Stepper from '@/components/framework7/Stepper'
+import SubNavbar from '@/components/framework7/SubNavbar'
+import Swipeout from '@/components/framework7/Swipeout'
+import Swiper from '@/components/framework7/Swiper'
+import Tabs from '@/components/framework7/Tabs'
+import Toggle from '@/components/framework7/Toggle'
+import ToolbarNTabbar from '@/components/framework7/ToolbarNTabbar'
+import Treeview from '@/components/framework7/Treeview'
+import View from '@/components/framework7/View'
+import VirtualList from '@/components/framework7/VirtualList'
 
 Vue.use(Router)
 
@@ -74,6 +75,11 @@ const router = new Router({
           component: Appbar
         },
         {
+          path: 'actionsheet',
+          name: 'F7ActionSheet',
+          component: ActionSheet
+        },
+        {
           path: 'badge',
           name: 'F7Badge',
           component: Badge
@@ -90,8 +96,8 @@ const router = new Router({
         },
         {
           path: 'cards',
-          name: 'F7Card',
-          component: Card
+          name: 'F7Cards',
+          component: Cards
         },
         {
           path: 'checkbox',
@@ -179,6 +185,11 @@ const router = new Router({
           component: Messagebar
         },
         {
+          path: 'messages',
+          name: 'F7Messages',
+          component: Messages
+        },
+        {
           path: 'navbar',
           name: 'F7Navbar',
           component: Navbar
@@ -195,8 +206,8 @@ const router = new Router({
         },,
         {
           path: 'photobrowser',
-          name: 'F7Photobrowser',
-          component: Photobrowser
+          name: 'F7PhotoBrowser',
+          component: PhotoBrowser
         },
         {
           path: 'popover',
@@ -225,8 +236,8 @@ const router = new Router({
         },
         {
           path: 'rangeslider',
-          name: 'F7Rangeslider',
-          component: Rangeslider
+          name: 'F7RangeSlider',
+          component: RangeSlider
         },
         {
           path: 'searchbar',
@@ -235,13 +246,13 @@ const router = new Router({
         },
         {
           path: 'sheetmodal',
-          name: 'F7Sheetmodal',
-          component: Sheetmodal
+          name: 'F7SheetModal',
+          component: SheetModal
         },
         {
           path: 'skeleton',
           name: 'F7Skeleton',
-          component: Skeleten
+          component: Skeleton
         },,
         {
           path: 'smartselect',
@@ -314,11 +325,11 @@ const router = new Router({
 })
 
 router.beforeEach((to, from, next) => {
-  if(to.path == '/') {
-    next('/f7/list');
-  } else {
+  // if(to.path == '/') {
+    // next('/f7/list');
+  // } else {
     next();
-  }
+  // }
 })
 
 export default router
