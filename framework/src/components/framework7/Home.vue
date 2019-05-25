@@ -13,9 +13,8 @@ export default {
     
   },
   mounted() {
-    const _this = this;
     this.$f7ready((f7) => {
-      _this.addClick();
+      this.addClick();
     });
   },
   updated() {
@@ -24,11 +23,16 @@ export default {
   methods: {
     addClick: function() {
       const _this = this;
-      const children = _this.$refs.rv.$refs.navbar.$children;
-      for(var i=0; i< children.length; i++) {
-        if(children[i]) {
-          children[i].$el.addEventListener("click", _this.goBack);
+      const childRef = _this.$refs.rv.$refs;
+      if(childRef.navbar && childRef.navbar.$children) {
+        const children = _this.$refs.rv.$refs.navbar.$children;
+        for(var i=0; i< children.length; i++) {
+          if(children[i] && children[i].$el.className=='left') {
+            children[i].$el.addEventListener("click", _this.goBack);
+          }
         }
+      } else {
+        alert('there is no navbar in page');
       }
     },
     goBack: function() {
